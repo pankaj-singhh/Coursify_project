@@ -1,0 +1,75 @@
+.subhome{
+    height: 80vh;
+    width: 70%;
+    margin-left: 16.3vw;
+    border: 1px solid rgb(156, 71, 71);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    
+   
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.ref{
+    margin-left: 125vh;
+}
+.start{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 3vh;
+}
+.substart{
+    font-size: smaller;
+    margin-top: -2vh;
+    margin-left: 4vh;
+}
+.image{
+    display: flex;
+      justify-content: center;
+     /* border: 1px solid red; */
+     height: 50vh;
+     margin-left: 42vh;
+     margin-top: 6vh;
+  }
+  .text{
+    font-weight: bold;
+    margin-top: -4vh;
+  }
+  .subtext
+  {
+    font-size: medium;
+    margin-left: 45vh;
+  }
+  .brws{
+    font-weight: bold;
+  background-color:black;
+  border-radius: 7px;
+  height: 5vh;
+  width: 20vh;
+  margin-left: 60vh;
+  }
+  a{
+    
+    text-decoration: none;
+    font-size: smaller;
+    color: blue;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  .only{
+    color: white;
+    font-weight: bold;
+  }
+  .only:hover{
+    text-decoration: none;
+  }
+  .brws:hover{
+    background-color: blue;
+    
+  }
+ 
+  

@@ -1,0 +1,52 @@
+.main{
+    /* background-color: blue; */
+    height: 38vh;
+    width: 70%;
+    margin-left: 16.3vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 6vh;
+   
+}
+.name{
+    /* margin-top: 50px; */
+    font-size: 5vh;
+    font-weight: bold;
+    /* border: 1px solid yellowgreen; */
+    margin-left: 4vh;
+}
+.button{
+    border: 5px solid black;
+}
+.add{
+    font-style:oblique;
+    margin-left: 25vh;
+    margin-top: -25px;
+    font-weight: 50px;
+    /* border:1px solid brown; */
+}
+.profile{
+    margin-left: 115vh;
+}
+.edit{
+    margin-left: 5vh;
+}
+.head{
+    margin-left: 25vh;
+    font-weight: bold;
+}
+.subhead{
+    margin-left: 25vh;
+   font-size: medium;
+   color: rgb(80, 76, 76);
+}
+#menue{
+    margin-left: 30vh;
+    height: 5vh;
+   width: 15vw;
+   font-weight: bold;
+    
+}
+option{
+    font-size: 2vh;
+}

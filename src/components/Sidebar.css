@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    background-color: #e3e7f0;
+    width: 250px;
+    height: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding-top: 40px;
+    margin-top: 45px;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    color: #4d3939;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .sidebar-item i {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #555;
+  }
+  
+  .sidebar-item span {
+    font-size: 16px;
+  }
+  
+  /* Font Awesome Icons */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+  

@@ -1,0 +1,102 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .navbar {
+    background-color: #e3e7f0;
+    padding: 10px;
+    position: fixed; 
+     width: 100%; 
+     height: 5vh;
+     margin-top: -52px;
+     border: 1px solid black;
+     
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  
+  .navbar-brand {
+    color:#473434;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 20vh;
+  }
+  
+  .nav-item {
+    margin-left: 15px;
+  }
+  
+  .nav-item a {
+    color: #1b1212;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  
+  .nav-item a:hover {
+    /* background-color: #555; */
+    border-radius: 5px;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;
+    }
+  
+    .nav-menu {
+      margin-top: 10px;
+    }
+  
+    .nav-item {
+      margin: 5px 0;
+    }
+  }
+  .input{
+    border-radius: 5px;
+    
+  }
+  /* hover visibilty/hidden */
+  /* .tooltip {
+     position: relative; 
+     display: inline-block; 
+     border-bottom: 1px dotted black; 
+  } */
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: -100px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+  
